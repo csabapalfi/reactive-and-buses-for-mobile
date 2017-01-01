@@ -1,5 +1,7 @@
 # Reactive programming and message buses for mobile
 
+[Csaba Palfi](https://csabapalfi.github.io), Jan 2014
+
 I attended a [Mobile Web Meetup](http://www.meetup.com/mobile_web/events/156458162/) yesterday organized by Matt Pearce from Cognizant.
 
 **Maciej Matyjas ([@matyjas](https://twitter.com/matyjas))** talked about reactive programming and message buses for mobile. He is the **mobile tech lead for Hotels.com** (yes, I work there, too). Maciej is in an especially good position to react (pun intended) to the **convergence of mobile and functional programming** since he has more than 10 years of experience in mobile and also an active member of the Scala community in London. It was a fun talk with lot of example code and photos of buses.
@@ -55,3 +57,5 @@ The **reactive** approach probably works better on a **smaller scale** like **wi
 ## Useful tips
 
 Then we got some useful tips on thing to watch out for. It's important to **cleanup subscriptions**. It's a good idea to **signal the end of a stream** somehow (e.g by sending a stream is over message - this shows some similarity to the poison pill message used in Akka to terminate actors). An interesting problem Maciej highlighted numerous times during the talk is how you handle **events published before subscription** or how you get **initial values** for mutable data modified by streams of messages.
+
+![](https://ga-beacon.appspot.com/UA-29212656-1/reactive-and-buses-for-mobile?pixel)
