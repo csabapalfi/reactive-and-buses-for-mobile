@@ -1,4 +1,4 @@
-# Reactive programming and message buses for mobile
+# 📱 Reactive programming and message buses for mobile
 
 [Csaba Palfi](https://csabapalfi.github.io), Jan 2014
 
